@@ -1,5 +1,5 @@
 ﻿#SingleInstance
-TITLE := "GET RICH QUICK 1.1"
+TITLE := "GET RICH QUICK 1.11"
 PLACEID := 3524195448
 WINDOW := "Roblox"
 
@@ -23,6 +23,7 @@ Loop {
         MouseMove(CLICK_X, CLICK_Y)
         Click
         Sleep(1000)
+        MouseMove(CLICK_X - 25, CLICK_Y - 25)
         Click
     } else {
         TrayTip("Starting Roblox...", TITLE)
